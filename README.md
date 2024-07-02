@@ -119,6 +119,12 @@ To verify the database state from the terminal:
 ```sh
 psql -h localhost -U myuser -d mydb -W
 ```
+________________________________________________________
+## Run with .jar file : 
+
+```sh
+mvn clean package && java -jar $(find target -name "*.jar" | head -n 1)
+```
 
 ## More Details About Tests
 
