@@ -7,17 +7,19 @@ This project is a simulation of banking transactions implemented using Java and 
 ## Features
 
 - RESTful API for money transfers between accounts
-- Database integration with PostgreSQL/MySQL
+- Database integration with PostgreSQL
 - Asynchronous operations
 - ACID compliance
 
 ## Requirements
 
-- Java 11 or later
-- Maven 3.6.3 or later
-- PostgreSQL or MySQL
-- Docker
-- Git
+- java=17.0.11
+- maven=3.8.1
+- postgresql=15.6
+- docker=27.0.2
+- docker-compose=1.29.2
+- swagger-ui=1.6.9
+- git=2.30.0
 
 ## Installation
 
